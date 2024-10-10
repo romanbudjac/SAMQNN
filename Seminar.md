@@ -23,8 +23,6 @@
 
 ## 5. Statistical Methods for Evaluating Quantization (10 minutes)
 
-![Placeholder for Image 1: A visual comparison between original and quantized model weight distributions](#)
-
 - Metrics to Compare: Model Accuracy, Latency, Energy Efficiency
 - Statistical Techniques: Paired t-tests, Confidence Intervals, ANOVA
 - Comparing Original and Quantized Models: Case Studies
