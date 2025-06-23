@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMQNN - Statistical Methods Research Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .download-link {
+            transition: all 0.3s ease;
+        }
+        .download-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- EU Funding Banner -->
+    <div class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto flex items-center justify-between flex-wrap">
+            <div class="flex items-center space-x-4">
+                <div class="h-12 w-12 bg-yellow-400 rounded flex items-center justify-center">
+                    <span class="text-blue-900 font-bold text-sm">EU</span>
+                </div>
+                <div class="h-12 w-12 bg-yellow-400 rounded flex items-center justify-center">
+                    <span class="text-blue-900 font-bold text-sm">2025</span>
+                </div>
+            </div>
+            <p class="text-sm">This project has received funding from the European Union's research and innovation programme</p>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="gradient-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-4">SAMQNN Research Project</h1>
+            <p class="text-xl opacity-90">Statistical Methods and Quantisation in Neural Networks</p>
+            <p class="text-lg mt-4 opacity-80">Advanced Statistical Analysis for Distribution Comparison</p>
+        </div>
+    </header>
+
+    <!-- Project Overview -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Project Overview</h2>
+            <div class="grid md:grid-cols-4 gap-8 mb-12 text-center">
+                <div>
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-blue-600">4</span>
+                    </div>
+                    <h3 class="font-semibold">Work Packages</h3>
+                    <p class="text-gray-600 text-sm">Structured research phases</p>
+                </div>
+                <div>
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-green-600">9</span>
+                    </div>
+                    <h3 class="font-semibold">Deliverables</h3>
+                    <p class="text-gray-600 text-sm">Research outputs and reports</p>
+                </div>
+                <div>
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-purple-600">75%</span>
+                    </div>
+                    <h3 class="font-semibold">Progress</h3>
+                    <p class="text-gray-600 text-sm">Project completion</p>
+                </div>
+                <div>
+                    <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-orange-600">12</span>
+                    </div>
+                    <h3 class="font-semibold">Months</h3>
+                    <p class="text-gray-600 text-sm">Project duration</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Packages -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Work Packages & Deliverables</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- WP1 -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">WP1: Statistical Foundations</h3>
+                    <p class="text-gray-600 mb-4">Development of core statistical methods for distribution comparison</p>
+                    <div class="space-y-3">
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D1: Research Seminar</span>
+                                    <p class="text-sm text-gray-600">Initial research presentation and methodology</p>
+                                </div>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 text-sm rounded">Complete</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <a href="#" onclick="downloadFile('D1_Research_Seminar_Presentation.pdf')" class="download-link bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-4-4m4 4l4-4m5-5V8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4"></path></svg>
+                                    Presentation PDF
+                                </a>
+                                <a href="#" onclick="downloadFile('D1_Research_Methodology_Report.docx')" class="download-link bg-gray-600 text-white px-3 py-1 rounded text-sm hover:bg-gray-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                    Report DOCX
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D2: Statistical Analysis</span>
+                                    <p class="text-sm text-gray-600">Analysis of suitable statistical methods</p>
+                                </div>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 text-sm rounded">Complete</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <a href="#" onclick="downloadFile('D2_Statistical_Methods_Analysis.pdf')" class="download-link bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-4-4m4 4l4-4m5-5V8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4"></path></svg>
+                                    Analysis PDF
+                                </a>
+                                <a href="#" onclick="downloadFile('D2_Statistical_Code_Package.zip')" class="download-link bg-green-600 text-white px-3 py-1 rounded text-sm hover:bg-green-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                                    Code ZIP
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D3: Testing Framework</span>
+                                    <p class="text-sm text-gray-600">Testing statistical methods for distribution comparison</p>
+                                </div>
+                                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 text-sm rounded">In Progress</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <a href="#" onclick="downloadFile('D3_Testing_Framework_Draft.pdf')" class="download-link bg-orange-600 text-white px-3 py-1 rounded text-sm hover:bg-orange-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-4-4m4 4l4-4m5-5V8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4"></path></svg>
+                                    Draft PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D4: Conference Proceedings</span>
+                                    <p class="text-sm text-gray-600">Publication of research findings</p>
+                                </div>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 text-sm rounded">Planned</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <span class="text-gray-500 px-3 py-1 text-sm">Available upon completion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WP2 -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-green-600">WP2: Implementation & Analysis</h3>
+                    <p class="text-gray-600 mb-4">Integration of statistical methods into quantisation processes</p>
+                    <div class="space-y-3">
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D5: WP2 Seminar</span>
+                                    <p class="text-sm text-gray-600">Advanced seminar on implementation strategies</p>
+                                </div>
+                                <span class="bg-green-100 text-green-800 px-2 py-1 text-sm rounded">Complete</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <a href="#" onclick="downloadFile('D5_WP2_Seminar_Slides.pdf')" class="download-link bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-4-4m4 4l4-4m5-5V8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4"></path></svg>
+                                    Slides PDF
+                                </a>
+                                <a href="#" onclick="downloadFile('D5_Implementation_Strategy_Report.pdf')" class="download-link bg-gray-600 text-white px-3 py-1 rounded text-sm hover:bg-gray-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                    Strategy PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D6: Integration Analysis</span>
+                                    <p class="text-sm text-gray-600">Statistical methods integration analysis</p>
+                                </div>
+                                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 text-sm rounded">In Progress</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <a href="#" onclick="downloadFile('D6_Integration_Analysis_Preliminary.pdf')" class="download-link bg-orange-600 text-white px-3 py-1 rounded text-sm hover:bg-orange-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-4-4m4 4l4-4m5-5V8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4"></path></svg>
+                                    Preliminary PDF
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D7: Implementation</span>
+                                    <p class="text-sm text-gray-600">Quantisation implementation with statistical methods</p>
+                                </div>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 text-sm rounded">Planned</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <span class="text-gray-500 px-3 py-1 text-sm">Available upon completion</span>
+                            </div>
+                        </div>
+                        
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D8: Conference Paper</span>
+                                    <p class="text-sm text-gray-600">Research paper submission</p>
+                                </div>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 text-sm rounded">Planned</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <span class="text-gray-500 px-3 py-1 text-sm">Available upon completion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WP3 -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-purple-600">WP3: Evaluation</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive evaluation and validation of developed methods</p>
+                    <div class="space-y-3">
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">D9: Interim Report</span>
+                                    <p class="text-sm text-gray-600">Comprehensive evaluation and results</p>
+                                </div>
+                                <span class="bg-yellow-100 text-yellow-800 px-2 py-1 text-sm rounded">In Progress</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <a href="#" onclick="downloadFile('D9_Interim_Report_Draft.pdf')" class="download-link bg-orange-600 text-white px-3 py-1 rounded text-sm hover:bg-orange-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-4-4m4 4l4-4m5-5V8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2v-4"></path></svg>
+                                    Draft Report
+                                </a>
+                                <a href="#" onclick="downloadFile('D9_Evaluation_Results_Data.xlsx')" class="download-link bg-green-600 text-white px-3 py-1 rounded text-sm hover:bg-green-700 flex items-center gap-1">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                                    Data XLSX
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WP4 -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-orange-600">WP4: Dissemination</h3>
+                    <p class="text-gray-600 mb-4">Publication and dissemination of research results</p>
+                    <div class="space-y-3">
+                        <div class="p-3 bg-gray-50 rounded">
+                            <div class="flex justify-between items-center mb-2">
+                                <div>
+                                    <span class="font-medium">Final Report & Publications</span>
+                                    <p class="text-sm text-gray-600">Final research outputs and publications</p>
+                                </div>
+                                <span class="bg-blue-100 text-blue-800 px-2 py-1 text-sm rounded">Planned</span>
+                            </div>
+                            <div class="flex gap-2 mt-3">
+                                <span class="text-gray-500 px-3 py-1 text-sm">Available upon completion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Project Timeline</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="relative">
+                    <div class="absolute left-4 top-0 bottom-0 w-0.5 bg-gray-300"></div>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center relative z-10">
+                                <div class="w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                            <div class="ml-6">
+                                <h4 class="font-semibold">Project Kickoff</h4>
+                                <p class="text-gray-600">January 2024 - Initial research phase began</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center relative z-10">
+                                <div class="w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                            <div class="ml-6">
+                                <h4 class="font-semibold">Statistical Foundation Complete</h4>
+                                <p class="text-gray-600">June 2024 - Core statistical methods established</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center relative z-10">
+                                <div class="w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                            <div class="ml-6">
+                                <h4 class="font-semibold">Implementation Phase</h4>
+                                <p class="text-gray-600">Current - Developing testing frameworks</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center relative z-10">
+                                <div class="w-3 h-3 bg-white rounded-full"></div>
+                            </div>
+                            <div class="ml-6">
+                                <h4 class="font-semibold">Final Dissemination</h4>
+                                <p class="text-gray-600">December 2024 - Publication and conference presentations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Objectives -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Research Objectives</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-blue-600">Primary Objectives</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                            <span>Develop advanced statistical methods for distribution comparison</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                            <span>Integrate statistical analysis into quantisation processes</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                            <span>Validate methods through comprehensive testing</span>
+                        </li>
+                        <li class="flex items-center">
+                            <div class="w-2 h-2 bg-gray-300 rounded-full mr-3"></div>
+                            <span>Publish findings in peer-reviewed venues</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-green-600">Expected Outcomes</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                            <span>Novel statistical framework for neural network quantisation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                            <span>Improved accuracy in distribution comparison methods</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                            <span>Open-source implementation of developed algorithms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-2"></div>
+                            <span>International conference presentations and publications</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-2">&copy; 2024 SAMQNN Research Project</p>
+            <p class="text-sm text-gray-400">Funded by the European Union's research and innovation programme</p>
+            <p class="text-sm text-gray-400 mt-2">Statistical Methods and Quantisation in Neural Networks</p>
+        </div>
+    </footer>
+
+    <script>
+        function downloadFile(filename) {
+            // Create a blob with placeholder content for demonstration
+            let content = '';
+            let mimeType = 'application/pdf';
+            
+            if (filename.includes('.pdf')) {
+                content = '%PDF-1.4\n%Sample PDF content for ' + filename;
+                mimeType = 'application/pdf';
+            } else if (filename.includes('.docx')) {
+                content = 'Sample DOCX content for ' + filename;
+                mimeType = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+            } else if (filename.includes('.xlsx')) {
+                content = 'Sample XLSX content for ' + filename;
+                mimeType = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+            } else if (filename.includes('.zip')) {
+                content = 'Sample ZIP content for ' + filename;
+                mimeType = 'application/zip';
+            }
+            
+            const blob = new Blob([content], { type: mimeType });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            
+            // Show download notification
+            showNotification('Downloaded: ' + filename);
+        }
+        
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.className = 'fixed top-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow-lg z-50 transform translate-x-full transition-transform';
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            setTimeout(() => {
+                notification.style.transform = 'translateX(full)';
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
